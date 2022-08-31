@@ -3,7 +3,7 @@
 -- to run the statements
 
 -- On postgresdb
-CREATE DATABASE wefarmtestdb
+CREATE DATABASE xyz
     TEMPLATE = 'template0'
     ENCODING = 'UTF-8'
     LC_COLLATE = 'en_US.UTF-8'
