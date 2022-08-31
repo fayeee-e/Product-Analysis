@@ -16,3 +16,5 @@ For each of the message variation in the A/B test I am calculating:
       than the user-based value propositions (other variations in the test)
     * Test if the hypothesis is true and if it is statistically significant
 * Presenting my results visually
+
+Languages used: R, SQL
