@@ -3,5 +3,5 @@
 -- to run the statements
 
 -- On postgresdb
-DROP DATABASE wefarmtestdb;
+DROP DATABASE xyz;
 
