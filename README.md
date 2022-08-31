@@ -4,7 +4,7 @@ An SMS message to cohort of users to try to convert them to a digital product.
 Through this A/B test I wanted to see which of the message variations was more successful, to
 then use it for a bigger cohort of users.
 
-For each of the message variation in the A/B test (data in `target_group`) I am calculating:
+For each of the message variation in the A/B test I am calculating:
 
 * The acquisition funnel:
     * click through value, how many users clicked on the link we added in the sms
