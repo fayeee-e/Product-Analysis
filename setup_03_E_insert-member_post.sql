@@ -1,9 +1,9 @@
 -- creating tables
--- please make sure you are connected with wefarmtestdb
--- and with the wefarmtest user or with a user with the correct privileges
+-- please make sure you are connected with xyz
+-- and with the xyz user or with a user with the correct privileges
 -- to run the statements
 
--- On wefarmtestdb
+-- On xyz
 
 ----------------------------------
 -- public.member_post
