@@ -1,5 +1,5 @@
 ---
-title: "Product Analyst Task"
+title: "Product Analysis Task"
 author: "Faith Kemunto"
 date: "12/10/2021"
 output: html_document
@@ -28,7 +28,7 @@ library(plotly)
 1. Connect to PostgreSQL to import the tables created into R.
 
 ```{r, include=TRUE}
-con <- DBI::dbConnect(RPostgres::Postgres(),dbname = "wefarmtestdb",user = rstudioapi::askForPassword("Database user"),password = rstudioapi::askForPassword("Database password"),port = "5432")
+con <- DBI::dbConnect(RPostgres::Postgres(),dbname = "xyz",user = rstudioapi::askForPassword("Database user"),password = rstudioapi::askForPassword("Database password"),port = "5432")
 ```
 
 
