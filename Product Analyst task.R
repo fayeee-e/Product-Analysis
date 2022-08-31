@@ -10,7 +10,7 @@ library(lsr)
 library(ggplot2)
 library(forcats)
 library(plotly)
-con <- DBI::dbConnect(RPostgres::Postgres(),dbname = "wefarmtestdb",user = rstudioapi::askForPassword("Database user"),password = rstudioapi::askForPassword("Database password"),port = "5432")
+con <- DBI::dbConnect(RPostgres::Postgres(),dbname = "xyz",user = rstudioapi::askForPassword("Database user"),password = rstudioapi::askForPassword("Database password"),port = "5432")
 dbListTables(con)
 click_through_value <- dbGetQuery(con, 'SELECT
 	Content,
